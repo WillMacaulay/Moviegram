@@ -1,0 +1,14 @@
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.csprojAssemblyReference.cache
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.csproj.CoreCompileInputs.cache
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.AssemblyInfoInputs.cache
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.AssemblyInfo.cs
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\tests.deps.json
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\tests.runtimeconfig.json
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\tests.runtimeconfig.dev.json
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\tests.dll
+C:\MoviegramAPI\src\tests\bin\Debug\netcoreapp2.2\tests.pdb
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.dll
+C:\MoviegramAPI\src\tests\obj\Debug\netcoreapp2.2\tests.pdb
