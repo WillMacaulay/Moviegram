@@ -1,0 +1,14 @@
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramAPI.deps.json
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramAPI.runtimeconfig.json
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramAPI.runtimeconfig.dev.json
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramAPI.dll
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramAPI.pdb
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.csprojAssemblyReference.cache
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.csproj.CoreCompileInputs.cache
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.RazorAssemblyInfo.cache
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.RazorAssemblyInfo.cs
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.AssemblyInfoInputs.cache
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.AssemblyInfo.cs
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.RazorTargetAssemblyInfo.cache
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.dll
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramAPI.pdb

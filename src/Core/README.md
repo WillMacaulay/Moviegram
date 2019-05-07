@@ -1,0 +1,1 @@
+This layer contains the main domain entities / value objects / exceptions.
