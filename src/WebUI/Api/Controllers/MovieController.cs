@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using MoviegramApi.Core.Entities;
 using MoviegramApi.Infrastucture.Data;
 using MoviegramApi.WebUI.Api.ApiModels;
+using MoviegramApi.WebUI.Interface;
 
 namespace MoviegramApi.WebUI.Api.Controllers
 {
@@ -19,17 +20,19 @@ namespace MoviegramApi.WebUI.Api.Controllers
     {
         private readonly MovieContext _context;
         private readonly ILogger _logger;
-        
-        public MovieController(MovieContext context, ILogger<MovieController> logger)
+        private IImageWriter _imageWriter;
+
+        public MovieController(MovieContext context, ILogger<MovieController> logger, IImageWriter imageWriter)
         {
             _context = context;
             _logger = logger;
+           _imageWriter = imageWriter;
 
             if (_context.Movies.Count() == 0)
             {
                 // Create a new Movie collection with a couple of movies intially
-                _context.Movies.Add(new Movie { Name = "Shallow", ShowTime = new DateTime(2018,10,9, 18,0,0), Duration = 134, Image ="Image1.jpg"});
-                _context.Movies.Add(new Movie { Name = "Bohemian Rhapsody", ShowTime = new DateTime(2018,10,24,15,0,0), Duration = 133, Image = "Image2.jpg"});
+                _context.Movies.Add(new Movie { Name = "Shallow", ShowTime = new DateTime(2018,10,9, 18,0,0), Duration = 134, Image ="3eb5dd34-f749-4560-9be4-eb9f2490df88.png"});
+                _context.Movies.Add(new Movie { Name = "Bohemian Rhapsody", ShowTime = new DateTime(2018,10,24,15,0,0), Duration = 133, Image = "92920a4d-a4a7-44bb-b6e2-66ce626d719a.jpg"});
                 _context.SaveChanges();
             }
         }
@@ -46,12 +49,15 @@ namespace MoviegramApi.WebUI.Api.Controllers
         ///
         /// </remarks>
         [HttpPost]
-        public async Task<ActionResult<Movie>> AddMovie([FromForm] MovieDTO movieDTO)
+        public async Task<ActionResult<Movie>> AddMovie([FromForm] MovieDTO movieDTO, IFormFile file)
         {
+             // Upload image to server
+            var imageFileName = await _imageWriter.UploadImage(file);
+
             // Create the new movie details and add to the persistent store
-           _context.Movies.Add(new Movie { Name = movieDTO.Name, ShowTime = movieDTO.ShowTime, Duration = movieDTO.Duration, Image = "TODO"});
+           _context.Movies.Add(new Movie { Name = movieDTO.Name, ShowTime = movieDTO.ShowTime, Duration = movieDTO.Duration, Image = imageFileName});
             await _context.SaveChangesAsync();
-            return Ok("TODO");
+            return Ok(imageFileName);
         }
 
         /// <summary>

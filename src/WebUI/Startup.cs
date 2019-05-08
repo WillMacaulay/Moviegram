@@ -15,6 +15,10 @@ using MoviegramApi.Infrastucture.Data;
 using Swashbuckle.AspNetCore.Swagger;
 using System.Reflection;
 using System.IO;
+using MoviegramApi.WebUI.Interface;
+using MoviegramApi.WebUI.Handler;
+using MoviegramApi.WebUI.Classes;
+
 
 namespace MoviegramAPI
 {
@@ -34,6 +38,10 @@ namespace MoviegramAPI
 
             // Use a SQL Lite database - to show concept
             services.AddDbContext<MovieContext>(options => options.UseSqlite("Data Source=c:\\sqllite\\movies.sdb"));
+
+            // For images
+            services.AddTransient<IImageHandler, ImageHandler>();
+            services.AddTransient<IImageWriter, ImageWriter>();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>

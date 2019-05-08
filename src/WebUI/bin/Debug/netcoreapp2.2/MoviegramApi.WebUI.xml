@@ -4,7 +4,7 @@
         <name>MoviegramApi.WebUI</name>
     </assembly>
     <members>
-        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.AddMovie(MoviegramApi.WebUI.Api.ApiModels.MovieDTO)">
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.AddMovie(MoviegramApi.WebUI.Api.ApiModels.MovieDTO,Microsoft.AspNetCore.Http.IFormFile)">
              <summary>
              Adds a new movie.
              </summary>
@@ -62,6 +62,20 @@
                  Get /Movie/
                      name in the body
              </remarks>
+        </member>
+        <member name="M:MoviegramApi.WebUI.Classes.ImageWriter.CheckIfImageFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Method to check if file is image file
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MoviegramApi.WebUI.Classes.ImageWriter.WriteFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Method to write file onto the disk
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>
