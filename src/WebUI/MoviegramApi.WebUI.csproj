@@ -10,6 +10,10 @@
  </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
@@ -19,7 +23,5 @@
     <ProjectReference Include="..\Core\MoviegramApi.Core.csproj" />
     <ProjectReference Include="..\Infrastructure\MoviegramApi.Infrastructure.csproj" />
   </ItemGroup>
-
-
 
 </Project>
