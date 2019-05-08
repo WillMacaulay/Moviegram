@@ -40,18 +40,16 @@ Swashbuckle package used for API documentation and also useful for testing
 Just for info - can also use swagger json and swagger codegen to generate frontend client code - 
 really useful - but not needed here for this demo
 Used ConfigureServices in Startup.cs to setup swagger service, and Configure to set up in the pipeline
-<<<<<<< HEAD
-=======
-
 
 MOVIE IMAGES
 These are stored on the server in the Images folder - and not directly in the database 
 The name of the generated file gets stored in the database - and the image is loaded on FrontEnd using that
 An API is provided to load the images 
 
+API Validation
+Uses FluentValidation - so we can add validation to the DTO model and not have checks in the controllers - keeps them thin
+
 EXTRA THOUGHTS
 Could have made a MovieService and called from Controller - but may be overkill - depends on how large system is
 Could have made a MovieRepository to wrap around EF Core - again may be overkill - depends on how large system is
 All time permitting
->>>>>>> 370426a03133826216b63a3f38c8798236ddb22d
-
