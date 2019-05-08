@@ -18,6 +18,8 @@ using System.IO;
 using MoviegramApi.WebUI.Interface;
 using MoviegramApi.WebUI.Handler;
 using MoviegramApi.WebUI.Classes;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 
 namespace MoviegramAPI
@@ -34,7 +36,10 @@ namespace MoviegramAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                    .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                    .AddFluentValidation(fvc =>
+                        fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
 
             // Use a SQL Lite database - to show concept
             services.AddDbContext<MovieContext>(options => options.UseSqlite("Data Source=c:\\sqllite\\movies.sdb"));
