@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj": {}
+    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj": {}
   },
   "projects": {
     "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {
@@ -122,12 +122,12 @@
         }
       }
     },
-    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj": {
+    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj",
-        "projectName": "MoviegramAPI",
-        "projectPath": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj",
+        "projectUniqueName": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj",
+        "projectName": "MoviegramApi.WebUI",
+        "projectPath": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj",
         "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
         "outputPath": "C:\\MoviegramAPI\\src\\WebUI\\obj\\",
         "projectStyle": "PackageReference",
@@ -171,6 +171,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

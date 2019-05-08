@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj": {}
+    "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {
@@ -106,71 +106,6 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.4, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj",
-        "projectName": "MoviegramAPI",
-        "projectPath": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramAPI.csproj",
-        "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-        "outputPath": "C:\\MoviegramAPI\\src\\WebUI\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Will\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {
-              "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {
-                "projectPath": "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj"
-              },
-              "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj": {
-                "projectPath": "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

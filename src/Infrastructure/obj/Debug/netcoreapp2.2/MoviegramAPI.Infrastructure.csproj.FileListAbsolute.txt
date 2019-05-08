@@ -1,0 +1,14 @@
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramAPI.Infrastructure.csprojAssemblyReference.cache
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramAPI.Infrastructure.AssemblyInfo.cs
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.deps.json
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.dll
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.pdb
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Core.dll
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Core.pdb
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramAPI.Infrastructure.csproj.CopyComplete
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.dll
+C:\MoviegramAPI\src\Infrastructure\obj\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.pdb
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.runtimeconfig.json
+C:\MoviegramAPI\src\Infrastructure\bin\Debug\netcoreapp2.2\MoviegramApi.Infrastructure.runtimeconfig.dev.json

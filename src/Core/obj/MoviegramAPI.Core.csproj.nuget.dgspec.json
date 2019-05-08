@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj",
+        "projectName": "MoviegramApi.Core",
+        "projectPath": "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj",
+        "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
+        "outputPath": "C:\\MoviegramAPI\\src\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Will\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

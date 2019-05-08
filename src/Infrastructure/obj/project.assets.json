@@ -4607,20 +4607,6 @@
         "runtime": {
           "bin/placeholder/MoviegramApi.Core.dll": {}
         }
-      },
-      "MoviegramApi.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.4",
-          "MoviegramApi.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MoviegramApi.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MoviegramApi.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -12431,11 +12417,6 @@
       "type": "project",
       "path": "../Core/MoviegramApi.Core.csproj",
       "msbuildProject": "../Core/MoviegramApi.Core.csproj"
-    },
-    "MoviegramApi.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Infrastructure/MoviegramApi.Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/MoviegramApi.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12443,8 +12424,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.4",
       "Microsoft.NETCore.App >= 2.2.0",
-      "MoviegramApi.Core >= 1.0.0",
-      "MoviegramApi.Infrastructure >= 1.0.0"
+      "MoviegramApi.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12454,11 +12434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj",
-      "projectName": "MoviegramApi.WebUI",
-      "projectPath": "C:\\MoviegramAPI\\src\\WebUI\\MoviegramApi.WebUI.csproj",
+      "projectUniqueName": "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj",
+      "projectName": "MoviegramApi.Infrastructure",
+      "projectPath": "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-      "outputPath": "C:\\MoviegramAPI\\src\\WebUI\\obj\\",
+      "outputPath": "C:\\MoviegramAPI\\src\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12479,9 +12459,6 @@
           "projectReferences": {
             "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj": {
               "projectPath": "C:\\MoviegramAPI\\src\\Core\\MoviegramApi.Core.csproj"
-            },
-            "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj": {
-              "projectPath": "C:\\MoviegramAPI\\src\\Infrastructure\\MoviegramApi.Infrastructure.csproj"
             }
           }
         }
