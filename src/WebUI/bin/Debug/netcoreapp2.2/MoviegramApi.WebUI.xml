@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoviegramApi.WebUI</name>
+    </assembly>
+    <members>
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.AddMovie(MoviegramApi.WebUI.Api.ApiModels.MovieDTO)">
+             <summary>
+             Adds a new movie.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Movie
+                     Details and file in body
+            
+             </remarks>
+        </member>
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.GetMoviesAsync">
+             <summary>
+             Gets all movies.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Movie
+            
+             </remarks>
+        </member>
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.GetMovieAsync(System.Int64)">
+             <summary>
+             Gets a specific movie.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Movie/
+                     id in body
+            
+             </remarks>
+             <param name="id"></param>  
+        </member>
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.Delete(System.Int64)">
+             <summary>
+             Deletes a specific movie.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE /Movie/1
+            
+             </remarks>
+             <param name="id"></param>        
+        </member>
+        <member name="M:MoviegramApi.WebUI.Api.Controllers.MovieController.GetMoviesAsync(System.String)">
+             <summary>
+             Returms a list of movies containing certain letters in the name.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 Get /Movie/
+                     name in the body
+             </remarks>
+        </member>
+    </members>
+</doc>

@@ -17,3 +17,5 @@ C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramApi.WebUI.RazorTarget
 C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramApi.WebUI.csproj.CopyComplete
 C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramApi.WebUI.dll
 C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramApi.WebUI.pdb
+C:\MoviegramAPI\src\WebUI\bin\Debug\netcoreapp2.2\MoviegramApi.WebUI.xml
+C:\MoviegramAPI\src\WebUI\obj\Debug\netcoreapp2.2\MoviegramApi.WebUI.xml
