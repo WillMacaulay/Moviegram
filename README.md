@@ -1,14 +1,10 @@
 Sample API application created using Visual Code and C# and dotnet core 2.2
+Using Clean Architectural Approach and DDD
+
 Note - Would normally have used Visual Studio (but didn't have on this machine)
 
-Runinng the application:
-In src\WebUI folder - build using 'dotnet build' and then run using 'dotnet run'
-
-DEVELOPMENT
-Used Visual Code - but would normally used Visual Studio (didn't have on this machine)
-Built using:
-    dotnet build 
-    dotnet run
+Running the application:
+In src\WebUI folder - build using 'dotnet build' and then run using 'dotnet run --environment "Development'
 
 APIs
 Async code is used - where possible
@@ -53,3 +49,5 @@ EXTRA THOUGHTS
 Could have made a MovieService and called from Controller - but may be overkill - depends on how large system is
 Could have made a MovieRepository to wrap around EF Core - again may be overkill - depends on how large system is
 All time permitting
+
+Usually look at integrating other patterns such as MediatR and CQRS - but may be overkill here
